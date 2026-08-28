@@ -1,0 +1,73 @@
+import os
+
+
+def generate_competitor_site():
+    """Generates a professional, raw HTML structure simulating a live e-commerce competitor portal"""
+    html_content = """
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Apex Global - Competitor Product Catalog</title>
+    </head>
+    <body>
+        <div id="catalog-header">
+            <h1>Competitor Live Price Index</h1>
+        </div>
+        <div class="product-grid">
+            <div class="product-card" data-sku="SKU-9901">
+                <h2 class="product-title">Enterprise Server Suite V5</h2>
+                <span class="product-category">Infrastructure</span>
+                <div class="price-box">
+                    <span class="competitor-price">$1,450.00</span>
+                    <span class="stock-status">In Stock</span>
+                </div>
+                <div class="rating">Rating: 4.8/5 (120 reviews)</div>
+            </div>
+            <div class="product-card" data-sku="SKU-2289">
+                <h2 class="product-title">Cloud Workspace Pro Plus</h2>
+                <span class="product-category">SaaS</span>
+                <div class="price-box">
+                    <span class="competitor-price">$39.99</span>
+                    <span class="stock-status">Active</span>
+                </div>
+                <div class="rating">Rating: 4.5/5 (840 reviews)</div>
+            </div>
+            <div class="product-card" data-sku="SKU-4412">
+                <h2 class="product-title">AI Analytics API Enterprise</h2>
+                <span class="product-category">SaaS</span>
+                <div class="price-box">
+                    <span class="competitor-price">$285.00</span>
+                    <span class="stock-status">In Stock</span>
+                </div>
+                <div class="rating">Rating: 4.9/5 (310 reviews)</div>
+            </div>
+            <div class="product-card" data-sku="SKU-7734">
+                <h2 class="product-title">Workstation Ultra Setup</h2>
+                <span class="product-category">Hardware</span>
+                <div class="price-box">
+                    <span class="competitor-price">$920.00</span>
+                    <span class="stock-status">Low Stock</span>
+                </div>
+                <div class="rating">Rating: 4.2/5 (45 reviews)</div>
+            </div>
+            <div class="product-card" data-sku="SKU-1056">
+                <h2 class="product-title">Cybersecurity Firewall Ultimate</h2>
+                <span class="product-category">Software</span>
+                <div class="price-box">
+                    <span class="competitor-price">$550.00</span>
+                    <span class="stock-status">In Stock</span>
+                </div>
+                <div class="rating">Rating: 4.7/5 (190 reviews)</div>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+    with open("competitor_catalog.html", "w", encoding="utf-8") as f:
+        f.write(html_content)
+    print("[MOCK PORTAL] Stable competitor catalog web interface written locally.")
+
+
+if __name__ == "__main__":
+    generate_competitor_site()
