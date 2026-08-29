@@ -1,0 +1,8 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Local Data Output & Web Samples
+Competitor_Market_Intelligence.xlsx
+competitor_catalog.html
+*.log
