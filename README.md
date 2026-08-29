@@ -2,10 +2,12 @@
 
 An advanced, production-grade automated market intelligence system that programmatically targets web catalogs, harvests discrete data points using specialized web parsers, cleans currency matrices, and structures target data points instantly into an executive client-ready Excel analytics sheet.
 
-<!-- Professional Badges -->
-[![Python Version](https://shields.io)](https://python.org)
-[![Scraping Engine](https://shields.io)](https://crummy.com)
-[![License: MIT](https://shields.io)](https://opensource.org)
+<div>
+  <strong>💻 Runtime:</strong> Python 3.8+ &nbsp;&nbsp;|&nbsp;&nbsp;
+  <strong>🕷️ Engine:</strong> BeautifulSoup4 &nbsp;&nbsp;|&nbsp;&nbsp;
+  <strong>📄 License:</strong> MIT
+</div>
+
 
 ## 🧠 System Architecture & Workflow
 * **`mock_marketplace.py`:** Serves as a localized production ecosystem simulation, structuring realistic product grids, custom stock counters, and custom CSS classes.
